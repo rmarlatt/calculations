@@ -37,7 +37,7 @@ static def GetAttributeValue(Request):
 
 
 
-This calculations shows attributes based on roles
+This calculations shows attributes based on roles.
 
 ```
 import System
@@ -108,4 +108,4 @@ static def GetAttributeValue(Request):
 
 	return String.Format(Commands,SetFormReadOnly,SetDepartRankReadOnly,SetBenReadOnly)
 
-    ```
+```
