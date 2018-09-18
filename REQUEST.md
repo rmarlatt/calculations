@@ -1,7 +1,16 @@
 
 # Request 
 
+## These calculation are in the following:
+- Module - Request Management
+- Collection - Request
+
+---
+
+
 This calculation creates a dynamic window. Hides or shows attibutes based off of other attributes. 
+
+- Attribute - DW_Ent_Hide Estimates
 
 ```
 import System
@@ -23,3 +32,5 @@ static def GetAttributeValue(Request):
 	
 	return String.Format(Commands,HideEstimates,HideRank )
 ```
+
+---
